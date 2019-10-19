@@ -3,7 +3,8 @@ body {
     color: #D7DADC !important;
 }
 
-.docs_main h1+ul li a {
+.docs_main h1+ul li a,
+.docs_main .content-list ul li, .docs_main ul:not(:first-of-type) li {
     color: #D7DADC !important;
 }
 

@@ -1,23 +1,44 @@
-  
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Laravel Docs Dark Mode</title>
-    <link href="bootstrap.min.css" rel="stylesheet" />
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
-  <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-title">
-                        Laravel Docs - Dark Mode
-                    </div>
-                    <div class="card-body"></div>
-                    <div class="card-footer"></div>
-                </div>
-            </div>
+<body>
+    <style>
+      .container {
+        border: 2px solid rgba(0,0,0,0.3);
+        border-radius: 2px;
+        background: white;
+      }
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+      .patient-list {
+        max-height: 250px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-width: 100%;
+      }
+    </style>
+    <div class="container text-center">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Laravel Docs Dark Mode</h5>
+            <h6 class="card-subtitle mb-2 text-muted">By Riju Pramanik</h6>            
+          </div>
+          <div class="card-footer">
+            <a href="https://riju.co?utm_source=laravel_extension&utm_medium=extension" target="_blank" class="btn btn-primary btn-sm">My website</a>
+            <a href="https://github.com/pramanikriju/laravel-docs-dark-mode-extension/issues/new" class="btn btn-danger btn-sm" target="_blank">Report an issue</a>
+          </div>
         </div>
     </div>
-  </body>
+</body>
 </html>

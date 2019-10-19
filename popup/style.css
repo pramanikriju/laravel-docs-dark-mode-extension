@@ -1,8 +1,8 @@
 html{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 body{
-    width: 400px;
-    height: 400px;
+    min-width: 200px;
+    min-height: 200px;
 }
