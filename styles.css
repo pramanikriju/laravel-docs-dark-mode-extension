@@ -1,0 +1,110 @@
+body {
+    background-color: #1A1A1B !important;
+    color: #D7DADC !important;
+}
+
+.docs_main h1+ul li a {
+    color: #D7DADC !important;
+}
+
+p,
+code,
+.footer_nav .footer_nav_contain ul li a
+{
+    color: #D7DADC !important;
+}
+
+.sidebar_layout .sidebar:before {
+    background: #1A1A1B !important;
+}
+
+.sidebar_layout .sidebar {
+    background: #1A1A1B !important;
+}
+
+.sidebar_layout .sidebar nav .navigation_contain ul li a,
+.sidebar_layout .sidebar nav .navigation_contain ul li h2,
+.docs_main code,
+.language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url,
+.docs_main h2 a, .docs_main h3 a, .docs_main h4 a,
+.token.punctuation,
+body, button, input, textarea
+{
+    color: #D7DADC !important;
+}
+
+.sidebar_layout::-webkit-scrollbar .sidebar::-webkit-scrollbar { width: 0 !important }
+
+
+:not(pre)>code[class*=language-], pre[class*=language-] {
+    color: #ff2d20 !important;
+    background: #444444 !important;
+}
+
+.token.boolean, .token.constant, .token.deleted, .token.number, .token.property, .token.symbol, .token.tag,
+.token.class-name, .token.function
+{
+    color: #ff2d20 !important;
+}
+.token.important, .token.regex, .token.variable {
+    color: cyan !important;
+}
+.token.atrule, .token.attr-value, .token.keyword {
+    color: #33a8ff !important;
+}
+.callout ,
+.partner_block,
+.autocomplete-wrapper,
+.custom_select
+{
+    background: #222 !important;
+    color: #D7DADC !important;
+}
+#version_switcher option {
+    background: #222 !important;
+    color: #D7DADC !important;
+    padding: 1em;
+}
+
+.autocomplete-wrapper >  {
+    background: #4c4c4c !important;
+}
+.autocomplete-wrapper .sub-section > * {
+    color: #D7DADC !important;
+}
+.autocomplete-wrapper .content > * {
+    color: #D7DADC !important;
+}
+footer .footer_bg,
+footer .footer_contain,
+footer
+{
+    background: #4c4c4c !important;
+}
+.token.attr-name, .token.builtin, .token.char, .token.inserted, .token.selector, .token.string {
+    color: #39ff14 !important;
+}
+
+
+/* Scroll bar */
+
+::-webkit-scrollbar-button {
+    display: none;
+    height: 13px;
+    border-radius: 0px;
+    background-color: #AAA;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #CCC;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
