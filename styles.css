@@ -8,7 +8,10 @@ body {
     color: #D7DADC !important;
 }
 .autocomplete-wrapper .content{
-    background-color: gray !important;
+    background-color: #808080 !important ;
+}
+footer .footer_contain{
+    background: #1A1A1B !important;
 }
 
 p,
