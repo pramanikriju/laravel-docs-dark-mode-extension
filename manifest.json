@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Laravel Docs Dark Mode",
-  "description": "A description of the Extension",
+  "description": "Enable dark mode for the laravel documentation website",
   "version": "1.0",
 
   "permissions": [
@@ -10,12 +10,14 @@
   ],
   "content_scripts": [{
     "css": ["styles.css"],
-    "matches": ["https://laravel.com/docs/*"]
+    "matches": ["https://laravel.com/docs/*"],
+    "js": ["jquery.js","content.js"]
   }],
 
   "browser_action": {
     "default_title": "Laravel Docs Dark Mode",
     "default_icon": "images/logo.png",
     "default_popup": "popup/popup.html"
-  }
+  },
+  "web_accessible_resources": ["riju.png"]
 }

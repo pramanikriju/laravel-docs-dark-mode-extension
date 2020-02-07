@@ -19,8 +19,18 @@ code,
     background: #1A1A1B !important;
 }
 
-.sidebar_layout .sidebar {
+.sidebar_layout .sidebar,
+#carbonads
+{
     background: #1A1A1B !important;
+}
+#carbonads .carbon-text {
+    color: #D7DADC !important;
+}
+
+#carbonads{
+    background: #4c4c4c !important;
+    color: #D7DADC !important;
 }
 
 .sidebar_layout .sidebar nav .navigation_contain ul li a,
@@ -33,6 +43,7 @@ body, button, input, textarea
 {
     color: #D7DADC !important;
 }
+
 
 .sidebar_layout::-webkit-scrollbar .sidebar::-webkit-scrollbar { width: 0 !important }
 
@@ -84,6 +95,9 @@ footer
 }
 .token.attr-name, .token.builtin, .token.char, .token.inserted, .token.selector, .token.string {
     color: #39ff14 !important;
+}
+.autocomplete-wrapper .content{
+    background-color: #808080 !important;
 }
 
 
