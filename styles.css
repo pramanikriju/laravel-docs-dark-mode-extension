@@ -7,6 +7,12 @@ body {
 .docs_main .content-list ul li, .docs_main ul:not(:first-of-type) li {
     color: #D7DADC !important;
 }
+.autocomplete-wrapper .content{
+    background-color: #808080 !important ;
+}
+footer .footer_contain{
+    background: #1A1A1B !important;
+}
 
 p,
 code,
